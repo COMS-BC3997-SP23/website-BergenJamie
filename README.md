@@ -135,9 +135,11 @@ Here are some of the outputs
 
 I’m working on creating and training the neural network. I have tried a bunch of different network structures but it keeps defaulting to memorizing the training set and then guessing on the validation set.  On the other hand, I learned how to do some neat visualizations for neural networks.
 
+![Network 1 structure](https://user-images.githubusercontent.com/112878664/226477469-a5e22529-74f5-4db4-bc0d-133a5c514adf.png)
+
 Training the Neural Network
 
-
+![Loss](https://user-images.githubusercontent.com/112878664/226477446-dda849d9-18fb-472a-b564-870dbf2d7795.png)
 
 
 -larger network complexity
@@ -145,17 +147,10 @@ Training the Neural Network
 Modified the generator to place the files in one folder because it was’t splitting properly leading to the bad validation numbers
 
 
-
-
-
 I think the model is just memorizing the dataset. Here are more things I have tried that have not worked yet. 
 Adding data augmentation
 Reducing complexity
 Transfer learning with a cnn on top
-Also shuffle the order of the images. 
-
-In this modified code, we use the ImageDataGenerator class to define the data augmentation, specifically a rotation range of 20 degrees. We then fit the data augmentation on the training data.
-
 Also shuffle the order of the images. 
 
 
