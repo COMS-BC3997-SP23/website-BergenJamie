@@ -127,6 +127,7 @@ for i in range(500):
 ```
 
 Here are some of the outputs
+
 ![Generated Shapes](https://user-images.githubusercontent.com/112878664/226476830-7987473f-ac91-4904-9211-98016909fb17.png)
 
 
