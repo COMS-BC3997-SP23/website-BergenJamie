@@ -1,13 +1,13 @@
 
-Week 1:
-
+**Week 1:
+**
 Project idea: Image analysis with machine learning on images of microglia to determine activation levels.
 
 I’m also very interested in training two neural networks to compare the activation to see if there is anything quantifiable about the weights that are usually described quantitatively in biology research.
 
 I have the project idea but hadn’t met with my advisor to discuss it before our first meeting. Decided to start researching the idea in more detail. So I started writing a paper. I haven’t worked with images of microglia and I don’t know much about them so I started there. Here is the introduction I wrote and some snippets of the background information I wrote.
 
-Introduction:
+**Introduction:**
 Microglia are a type of glial cell that serve as the resident immune cells of the central nervous system (CNS). They play a critical role in maintaining the health and function of the CNS, including maintaining the balance between neuroprotective and neuroinflammation. (Colonna and Butovsky, 2017, and Wake, 2011) In recent years, there has been growing interest in the role of microglia in various neurological disorders, including Alzheimer's disease, Parkinson's disease, and multiple sclerosis. However, the methods for understanding morphology and behavior of microglia have been shown to be limited and inconsistent (Green et al, 2022). While there are promising new developments in deep learning for the classification of microglia, the behavior of these networks remains elusive. This paper aims to provide an overview of methods for microglia classification using deep learning, as well as to propose several methods of network analysis to improve and draw additional conclusions about the morphology of microglia.
 
 Function of Microglia
@@ -24,7 +24,7 @@ In addition to their immune functions, microglia are also involved in regulating
 
 Microglia are also involved in a number of other functions, including regulation of blood flow in the CNS, production of growth factors that promote neural survival and regeneration, and modulation of neural activity (Ginhoux and Garel, 2018). They play a critical role in the development and function of the CNS, and are important for maintaining the health and well-being of the nervous system.
 
-Week 2
+**Week 2**
 
 I discussed the project idea with my lab, and they are excited about it though they want me to do more research on existing networks for image analysis in biology. So this week I worked on that a bit as well as fleshing out my background information on microglia morphology based on activation and sex dependencies
 
@@ -48,17 +48,17 @@ Deep learning algorithms are also being developed for the analysis of microglia 
 
 While these computational tools provide powerful methods for the analysis of microglia in brain tissue, it is important to note that they still have their limitations. For example, the accuracy of these tools can be affected by the quality of the imaging data, and the choice of parameters used for analysis can affect the specificity and sensitivity of the quantification. Additionally, the interpretation of the results still requires human input, and the choice of appropriate statistical analyses is crucial to accurately interpret the data. Overall, these computational tools provide powerful methods for the objective and quantitative analysis of microglia morphology and activation, and will continue to play an important role in advancing our understanding of the role of microglia in health and disease.
 
-Week 3
+**Week 3**
 I got very little done this week. I added a little to the paper but I was dealing with some medical stuff. 
 
 
-Week 4. 
+**Week 4. **
 
 Met with Professor Plancher about my project since we hadn’t met yet. I explained I was working on a paper but my computer broke the previous week so I lost some of it and couldn’t show him in class. We decided I need to simplify my problem a bit just to see if it would even work. So I’m gonna aim to finish the paper this week so I can start actually coding next week.
 
 Update: Paper is pretty much finished. Will upload as a separate page of this website, it is about 20 pages. 
 
-Week 5
+**Week 5**
 
 I finished the paper last week and am simplifying the problem. I will generate images of circles and squares and train neural networks to identify if they are circles or squares. Then work on network analysis to compare the two networks, probably with a heatmap comparing the nodes in each layer. 
 
@@ -158,14 +158,14 @@ In this modified code, we use the ImageDataGenerator class to define the data au
 Also shuffle the order of the images. 
 
 
-Week 7
-
+**Week 7
+**
 It’s break. I’m not going to work on this much because I have been super burned out with other academic stuff and applying for jobs. My goal is just to get the website running, and I’ll upload this material on Monday.
 
 Update: Making the website is harder than I thought it would be, I want to enjoy my break instead of stressing over it so I will be going to office hours on monday.
 
 
-Week 8:
+**Week 8:**
 Meeting with Professor Plancher’s office hours to get all of this on the website.
 
 
