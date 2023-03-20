@@ -63,6 +63,7 @@ Week 5
 I finished the paper last week and am simplifying the problem. I will generate images of circles and squares and train neural networks to identify if they are circles or squares. Then work on network analysis to compare the two networks, probably with a heatmap comparing the nodes in each layer. 
 
 Here is the code I wrote this week for generating the shapes and putting them into a folder, and keeping track of their labels with a csv file. I honestly had more trouble with this than I expected I would, since I don’t have much experience with using code to write to a csv file and so had to research and use a few libraries I wasn’t familiar with.
+```
 
 # Define the classes
 classes = ["circle", "square"]
@@ -124,6 +125,7 @@ for i in range(500):
     # Display the first image and exit the loop
     if i == 0:
         image.show()
+```
 
 Here are some of the outputs
 
