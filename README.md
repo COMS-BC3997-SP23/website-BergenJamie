@@ -175,6 +175,26 @@ Made new neural networks. They work well! The structure is more simple than the 
 ![9ce722f0-e00c-480c-8b35-7eac67fe930e](https://user-images.githubusercontent.com/112878664/235011703-d65d50a1-a36a-4c7a-bdb0-03246bdbc18a.png)
 
 **Week 11**
+Struggling with data visualizations this week. Feel like I have a good hand with the maps of the weights. I've been trying to make heatmaps for the activations with images, but struggling with the inputs and what needs to get dot producted with that etc. Theres a lot of papers that explain the general idea but translating it to code has been really difficult.
+
 **Week 12**
-Worked on 
+I GOT THE HEATMAPS WORKING!! THEY CAME OUT REALLY WELL AND HAD SOME SURPRISING RESULTS! Here is a step by step for generating them for future reference:
+
+
+A new model is created using tf.keras.models. Model that takes the input tensor and returns both the output of the last convolutional layer and the overall output of the network. This is achieved using last_conv_model = tf.keras.models.Model(model.inputs, [last_conv_layer.output, model.output]).
+Using a tf.GradientTape context, the gradient of the predicted output with respect to the output of the last convolutional layer is computed. This is accomplished with grads = tape.gradient(loss, conv_output), where loss is the difference between the predicted output and the actual output.
+The mean of the gradients is taken along each channel using pooled_grads = tf.reduce_mean(grads, axis=(0, 1, 2)). This produces a single gradient score for each channel.
+The contribution of each channel in the last convolutional layer is calculated by multiplying the feature map of each channel with its corresponding gradient score using heatmap = last_conv_layer_output @ pooled_grads[..., tf.newaxis]. Here, last_conv_layer_output is the output of the last convolutional layer.
+The tf.squeeze() function is used to remove any singleton dimensions from heatmap, and tf.maximum() is used to apply ReLU activation to the heatmap to remove any negative values.
+Finally, the heatmap is normalized to have a maximum value of 1 using heatmap /= tf.reduce_max(heatmap).
+
+![heatmaps](https://user-images.githubusercontent.com/112878664/235012348-bf45fca3-0999-43d8-b0af-32875f6812fb.png)
+
+I also made my presentation for next week
+
 **Week 13**
+
+I met with Professor Plancher and he sent me an interesting article about loss visualization. It made some concepts I was fuzzy on a bit clearer and was also just super interesting. I gave my presentation in class and it went really well too! Had people asking some neat questions. Focusing this week on getting the paper done for the most part and the last few visualizations
+
+
+**Week TBD**
