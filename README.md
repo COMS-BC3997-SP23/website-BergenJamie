@@ -169,3 +169,12 @@ Starting from scratch to generate more kinds of shapes, also think I'm going to 
 Got new code to generate and label more kinds of shapes, and label them appropriately for the two neural networks I'll make. 
 
 ![shapeshot](https://user-images.githubusercontent.com/112878664/235011311-8a14b1d4-2494-4200-a39f-0b9444584427.png)
+
+**Week 10**
+Made new neural networks. They work well! The structure is more simple than the last ones and showing it below with the loss function ![71d596ef-2a61-4374-8bb1-6d55f1c974d9](https://user-images.githubusercontent.com/112878664/235011568-9ba18f76-08e2-45c5-ad77-0092d962cbba.png)![8fee542f-5cc3-4f2b-ab02-c754d58bdc3a](https://user-images.githubusercontent.com/112878664/235011617-3978d918-3b82-49ac-9d7c-f033c6e91025.png) Started tinkering around with data visualizations and also figured out how to make heatmaps of the filters, but not sure of the best way to analyze them. 
+![9ce722f0-e00c-480c-8b35-7eac67fe930e](https://user-images.githubusercontent.com/112878664/235011703-d65d50a1-a36a-4c7a-bdb0-03246bdbc18a.png)
+
+**Week 11**
+**Week 12**
+Worked on 
+**Week 13**
