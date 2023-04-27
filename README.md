@@ -163,9 +163,9 @@ Update: Making the website is harder than I thought it would be, I want to enjoy
 **Week 8**
 Meeting with Professor Plancher’s office hours to get all of this on the website.
 
+**Week 9**
+Starting from scratch to generate more kinds of shapes, also think I'm going to simplify the neural network.
 
+Got new code to generate and label more kinds of shapes, and label them appropriately for the two neural networks I'll make. 
 
-
-
-
-
+![shapeshot](https://user-images.githubusercontent.com/112878664/235011311-8a14b1d4-2494-4200-a39f-0b9444584427.png)
